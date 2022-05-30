@@ -1,7 +1,8 @@
 # ardupilot-rover-l298n
-How to setup Ardupilot based Rover with L298N motor driver to control with reverse simple DC brushed motors
+## How to setup Ardupilot based Rover with L298N motor driver to control with reverse simple DC brushed motors
 
-Components:
+### Components:
+
 A rover with this kind of DC motors:
 
 ![image](https://user-images.githubusercontent.com/2444175/170966916-abe3ba37-18f0-479a-9504-baa9a021d870.png)
@@ -68,3 +69,13 @@ Assuming calibration and other things are already completed. RC stick mode is se
 BrushedWithRelay motor mode reserves the first relays (AUX1 and AUX2 in our case), so we must use other relay outputs for our purposes. In this case AUX3-AUX6 outputs will be used.
 
 In Mission Planner upload the set_rotation_dir.lua script to the scripts folder and reboot the Pixhawk.
+
+![image](https://user-images.githubusercontent.com/2444175/170971613-04d6c20d-fae2-4e82-a37e-2a95e19fa52a.png)
+
+![image](https://user-images.githubusercontent.com/2444175/170971652-6d4ffa63-ae74-4fdb-b4be-b52c89321772.png)
+
+![image](https://user-images.githubusercontent.com/2444175/170971685-9bbbd798-d62d-46ef-980a-f55e3242526e.png)
+
+![image](https://user-images.githubusercontent.com/2444175/170971716-434e6730-a75b-4e24-97ed-d2f61bd50919.png)
+
+
