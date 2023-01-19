@@ -8,6 +8,7 @@ A rover with this kind of DC motors:
 ![image](https://user-images.githubusercontent.com/2444175/170966916-abe3ba37-18f0-479a-9504-baa9a021d870.png)
  
 My rover has two of them: for driving and for steering
+
 An Ardupilot hardware (Pixhack 2.8.4 in my case, fmuv3 is required, AP version should be 4.2+):
 
 ![image](https://user-images.githubusercontent.com/2444175/170966979-af1e83ab-a498-4c4c-8723-ddc673e0214c.png)
